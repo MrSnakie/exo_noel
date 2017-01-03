@@ -1,0 +1,31 @@
+body {
+	background-color: #FFF8C1;
+	font-family: Arial, Sans-Serif;
+}
+
+#img {
+	background-image: url(http://lorempixel.com/output/abstract-q-g-800-500-9.jpg);
+	width: 800px;
+	height: 500px;
+	border: 3px solid black;
+	margin: auto;
+	display: flex;
+}
+
+p {
+	order: 2;
+}
+
+#img1 {
+	float: left;
+	width: 300px;
+	align-self: flex-end;
+	order: 1;
+}
+
+#img2 {
+	float: right;
+	width: 300px;
+	align-self: flex-end;
+	order: 3;
+}

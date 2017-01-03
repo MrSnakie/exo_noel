@@ -1,0 +1,29 @@
+body {
+	background-color: #FFF8C1;
+	font-family: Arial, Sans-Serif;
+}
+
+article {
+	display: flex;
+}
+
+img {
+	border-radius : 5px;
+}
+
+#gauche {
+	background-color: #0000FF;
+	width: 20%;
+}
+
+#centre {
+	background-color: #FFFFFF;
+	width: 65%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#droite {
+	background-color: #FF0000;
+	width: 15%;
+}

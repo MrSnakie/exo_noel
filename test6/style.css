@@ -1,0 +1,27 @@
+body {
+	background-color: #FFF8C1;
+	font-family: Arial, Sans-Serif;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	border: 5px solid black;
+}
+
+#img1 {
+	margin: 0px;
+}
+
+#img2 {
+	margin: 50px;
+}
+
+#img3 {
+	margin: 100px;
+}
+
+img:hover{
+	z-index: 1;
+}
